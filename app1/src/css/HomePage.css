@@ -1,0 +1,40 @@
+/* src/css/HomePage.css */
+.hero-section {
+    color: #008000; /* Green text */
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Send image to the back */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #2196F3; /* Blue button */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cta-button:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+}

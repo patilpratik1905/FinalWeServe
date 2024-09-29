@@ -1,0 +1,31 @@
+/* src/css/Profile.css */
+.profile {
+    padding: 20px;
+}
+
+h2 {
+    color: #008000; /* Green text */
+}
+
+.profile p {
+   font-size: 1.2em; 
+   margin-bottom: 10px; 
+}
+
+.food-request-form {
+   margin-top: 20px; 
+   border-top: 1px solid #2196F3; 
+   padding-top: 20px; 
+}
+
+.food-request-form input {
+   display:block; 
+   margin-bottom :10 px ; 
+   padding :10 px ; 
+   width :calc(100% -22 px ); 
+}
+
+.food-request-form button {
+   background-color :#2196F3 ; 
+   color:white ; 
+}
